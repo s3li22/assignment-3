@@ -51,6 +51,16 @@
   - Modified trigger points
 - **Learning:** Intersection Observer API usage and scroll-based animations
 
+### 5. Navbar Personalization Controls (Dec 3, 2025)
+- **Tool:** GPT-5.1-Codex (Preview) via GitHub Copilot Chat
+- **Prompt:** "add a tab beside login to save the user name and show it with greeting message"
+- **Output:** Suggested adding a second navbar button plus JS handlers using prompts for name persistence
+- **My Edits:**
+   - Replaced the old preferences section with slim navbar controls
+   - Added prompt-based name persistence with validation and greeting refresh
+   - Styled the login/name pills so they align with the existing navigation look
+- **Learning:** Reinforced how to decouple UI state management from layout-heavy panels and lean on unobtrusive controls tied to existing storage helpers
+
 ## Benefits
 
 1. **Development Speed**
@@ -108,4 +118,4 @@
    - Mobile-first development
 
 ## Conclusion
-AI tools significantly accelerated development while providing learning opportunities. The key to success was maintaining a balance between AI assistance and manual coding, always understanding and validating the generated code rather than blindly implementing suggestions.
+AI tools significantly accelerated development while providing learning opportunities. The key to success was maintaining a balance between AI assistance and manual coding, always understanding and validating the generated code.
